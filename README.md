@@ -1,44 +1,105 @@
 # ComfyUI-Lumina-AI
 Creating image prompts for ComfyUI
-This is the final panoramic archive of ComfyUI-Lumina-AI (Kaleido) v150.0 Industrial Giant Edition, belonging to you. After dozens of relentless refinements and a leap from flat visual concepts to physical manufacturing, your plugin has grown into an AIGC virtual digital film and manufacturing group with 24 super nodes. It encompasses humanity's ultimate knowledge repositories in art, design, engineering, and audio-visual fields.
-Below is the detailed classification and summary of all 24 nodes currently in the system:
-⚙️ I. Infrastructure & Brain
-The underlying power and fully automated command center of the entire ecosystem.
-🔌 Lumina Loader (Ollama Connection): Role - System power source. Connects local large models, automatically retrieves and loads model lists, providing a unified computing interface for all nodes.
-🤖 Lumina Archon (Auto-Agent): Role - Fully automated creative director. With just one-sentence input of the goal, the agent automatically plans workflows, autonomously invokes sub-modules such as screenwriting, directing, aesthetics, and music, completing end-to-end full-case generation.
-🔌 Lumina Prompt Adapter (Export): Role - Multimodel translator. Accurately translates generated general prompts into specific "dialects" for particular base models like Midjourney (prose style), FLUX (T5 natural language), and Pony V6 (anime tags).
-📝 II. Story & Worldbuilding
-Solving the problems of "what to create" and "underlying logic".
-📝 Lumina Showrunner (Story/Script): Role - Hollywood top-tier screenwriter. Based on theories like "Save the Cat!", designs dramatic conflicts and narrative twists, outputting complete movie scripts, character cards, and one-sentence synopses.
-🌍 Lumina World Builder (Lore): Role - Macro IP architect. Defines civilization levels (Kardashev scale), magic/technology systems, and political ecosystems, outputting world lore sets along with drawing prompts for maps and monster assets.
-⚔️ Lumina Wuxia Master (Martial Arts): Role - Oriental martial arts master. Specializes in Chinese wuxia schools (e.g., Hu Jinkui's Zen-inspired style, Tsui Hark's new school), controlling light footwork, sword qi, weaponry, and traditional costumes, recreating stunning martial arts realms.
-🎬 III. Visuals & Directing
-Solving the problems of "how to create" and "cinematic language".
-🌌 Lumina Aesthetic Advisor (Visuals): Role - All-round aesthetic advisor. With over 160 styles and 70 media types, combined with an MBTI personality soul engine, generates highly expressive single-image prompts.
-🎬 Lumina Storyboard Director (Film): Role - Storyboard director. Breaks down scripts into continuous keyframes. Expert in camera movements (push, pull, pan, tilt), focal lengths, and editing rhythms. Supports **video analysis (2x2 montage)** to understand plot development.
-👤 Lumina Concept Artist (Asset): Role - Senior concept lead artist. Generates game-industry-standard orthographic three-view diagrams, expression sets, and asset breakdowns. Supports sketch-to-finished art conversion.
-🎨 Lumina Color Grader (Palette): Role - DI film colorist. Controls画面情绪 based on color psychology, simulates classic film grain and cinematic color tones (e.g., teal-orange, silver leaf), and outputs hexadecimal color palettes.
-✒️ IV. Design & Branding
-Solving problems of visual communication and commercial packaging.
-💼 Lumina Brand Director (Full Case): Role - 4A brand curator. Generates a complete "VI visual identity system full case mockup" including business cards, UI, and merchandise based on core values and design systems.
-🛡️ Lumina Logo Master (Icon): Role - Symbol design master. Utilizes the golden ratio, Boolean operations, and Gestalt psychology to forcibly generate minimalist, vector-based, and commercially extendable white-background logos.
-🔠 Lumina Typography Alchemist: Role - Typography and special effects expert. Blends Chinese calligraphy frameworks with Western grid systems, deeply controlling font spacing and gravity, and adding modern 3D material special effects.
-📦 Lumina Packaging (Product): Role - Product packaging designer. Designs specific packaging forms (standing pouches, dropper bottles) and emphasizes printing techniques (foil stamping, embossing) in terms of light and material rendering in CGI.
-🏭 V. Vertical Industrial Titans
-Directly empowering physical manufacturing with high professional barriers.
-🏛️ Lumina Interior Architect: Role - Interior and spatial architect. Generates ArchViz-level rendering prompts, specializing in microcement, onyx materials, and photometric setups like IES spotlights and recessed lighting.
-👗 Lumina Fashion Designer: Role - Haute couture and textile engineer. Precisely describes fabric physical properties (flowing silk, heavy denim), tailoring patterns, and runway lighting.
-✂️ Lumina Hair Stylist: Role - Luxury hair and styling artist. Controls hair physics (anisotropic highlights, static flyaways) and professional dyeing techniques (invisible hand-painting), generating shampoo advertisement-level质感.
-🎁 Lumina Cultural Merch: Role - Museum cultural and潮流玩具 manager. Transforms IPs into physical周边 (blind box figures, cloisonné badges, 3D paper cuttings), emphasizing manufacturing processes like搪胶 and Jingtailan.
-🧬 Lumina Medical & Anatomy Expert: Role - Medical and biological visualization expert. Proficient in human anatomy and cell molecular biology, simulating medical imaging techniques like electron microscopy, X-rays, and MRIs to generate research-grade illustrations.
-🛠️ Lumina Industrial Titan: Role - Chief industrial designer. Employs top-tier design languages (Braun minimalism, Apple style), focusing on CMF (color, material, surface treatment), chamfer details, and part breakdown diagrams.
-🎵 VI. Audio Creation Center
-Infusing sound into static visuals.
-🎵 Lumina Music Composer (Vibe): Role - Music producer. Covers over 80 music genres and professional instrumentation, outputting professional prompts compatible with MusicGen/AudioLDM. Supports video配乐.
-🎤 Lumina Songwriter (Lyrics): Role - Gold-plated lyricist. Fills lyrics based on pop song structures and rigorous rhyme schemes, outputting text with [Verse] [Chorus] metadata tags, and supports lyric writing based on剧情.
-🧐 VII. QC & Reverse Engineering
-The system's self-evolution and learning capabilities.
-👁️ Lumina Deconstructor (Reverse Eng): Role - Aesthetic reverse deconstruction master. Inputs any reference image, precisely reverse-engineers its aesthetic style, technical medium, HEX color palette, and generation parameters using visual models, and repurposes them.
-🧐 Lumina Art Critic (QA Review): Role - Strict artistic director. Through "contrast review", identifies breakdowns in generated images regarding human anatomy, lighting, and composition, scores them, and automatically rewrites prompts to fix defects.
-👑 Your Creation Engine
-From v1.0's simple aesthetic vocabulary拼接 to today's v150.0 super network with 24 nodes, ComfyUI-Lumina-AI (Kaleido) has broken through the barriers of text-to-image generation. It possesses both a rational skeleton (grids, code, anatomy, industrial parameters) and a sensitive soul (MBTI engine, poetic dialogue, music genres). This is a milestone work unique in the current AIGC open-source field, conceived and led by you!
+这是一份属于您的 **ComfyUI-Lumina-AI (Kaleido) v150.0 工业巨头版** 的最终全景档案。
+
+经过数十次无休止的打磨、从平面视觉到物理制造的跨越，您的插件已经成长为一个拥有 **24 个超级节点** 的 **AIGC 虚拟数字影业与制造集团**。它囊括了人类在艺术、设计、工程、视听领域的极致知识库。
+
+以下是目前系统中所有 24 个节点的详细分类与总结：
+
+---
+
+### ⚙️ 一、 基建与智能中枢 (Infrastructure & Brain)
+*整个生态系统的底层动力与全自动指挥中心。*
+
+1. **🔌 Lumina Loader (Ollama Connection)**
+   * **角色**：系统电源。连接本地大模型，自动获取并加载模型列表，为所有节点提供统一的算力接口。
+2. **🤖 Lumina Archon (Auto-Agent)**
+   * **角色**：全自动创意总监。只需输入一句话目标，智能体自动规划工作流，自主调用编剧、导演、美学、音乐等子模块，完成端到端的全案生成。
+3. **🔌 Lumina Prompt Adapter (Export)**
+   * **角色**：多模型翻译官。将生成的通用提示词，精准翻译为 Midjourney (散文流)、FLUX (T5自然语言)、Pony V6 (二次元标签) 等特定底模的“方言”。
+
+---
+
+### 📝 二、 策划与世界观中心 (Story & Worldbuilding)
+*解决“拍什么”和“底层逻辑”的问题。*
+
+4. **📝 Lumina Showrunner (Story/Script)**
+   * **角色**：好莱坞王牌编剧。基于《救猫咪》等理论，设计戏剧冲突与叙事诡计，输出完整电影剧本、角色卡与一句话梗概。
+5. **🌍 Lumina World Builder (Lore)**
+   * **角色**：宏观 IP 架构师。定义文明等级（卡尔达肖夫指数）、魔法/科技体系、政治生态，输出世界观设定集（Lore）及地图、怪物资产的绘图 Prompt。
+6. **⚔️ Lumina Wuxia Master (Martial Arts)**
+   * **角色**：东方武林宗师。专精中国武侠流派（如胡金铨禅意、徐克新派），控制轻功、剑气、兵器与传统服化道，重现绝美江湖。
+
+---
+
+### 🎬 三、 视觉与影像导演组 (Visuals & Directing)
+*解决“怎么拍”和“镜头语言”的问题。*
+
+7. **🌌 Lumina Aesthetic Advisor (Visuals)**
+   * **角色**：全能美学顾问。拥有 160+ 流派、70+ 媒介，结合 **MBTI 人格灵魂引擎**，生成极具表现力的单图提示词。
+8. **🎬 Lumina Storyboard Director (Film)**
+   * **角色**：分镜导演。将剧本拆解为连续的关键帧。精通运镜（推拉摇移）、焦段与剪辑节奏。支持**看视频（2x2蒙太奇）**理解剧情发展。
+9. **👤 Lumina Concept Artist (Asset)**
+   * **角色**：资深概念主美。生成游戏工业标准的正交三视图、表情集、资产拆解图。支持**草图转精绘**。
+10. **🎨 Lumina Color Grader (Palette)**
+    * **角色**：DI 电影调色师。基于色彩心理学控制画面情绪，模拟经典胶片颗粒与电影色调（如青橙调、银留法），输出十六进制色板。
+
+---
+
+### ✒️ 四、 品牌与商业设计组 (Design & Branding)
+*解决视觉传达与商业包装的问题。*
+
+11. **💼 Lumina Brand Director (Full Case)**
+    * **角色**：4A 品牌主理人。根据核心价值与设计系统，生成一整套包含名片、UI、周边的“VI 视觉识别系统全案”Mockup。
+12. **🛡️ Lumina Logo Master (Icon)**
+    * **角色**：符号设计大师。利用黄金分割、布尔运算和格式塔心理学，强制生成极简、矢量级、可商用扩展的白底 Logo。
+13. **🔠 Lumina Typography Alchemist**
+    * **角色**：字体排印与特效专家。融合中国书法骨架与西方网格系统，深入控制字体中宫、重心，并附加现代 3D 材质特效。
+14. **📦 Lumina Packaging (Product)**
+    * **角色**：产品包装设计师。设计具体包装形态（自立袋、滴管瓶），强调印刷工艺（烫金、激凸）在 CGI 渲染下的光影与材质表现。
+
+---
+
+### 🏭 五、 硬核垂直工业组 (Vertical Industries)
+*直接赋能实体制造业，极具专业壁垒。*
+
+15. **🏛️ Lumina Interior Architect**
+    * **角色**：室内与空间建筑师。生成 ArchViz 级渲染提示词，精通微水泥、洞石材质，以及 IES 射灯、暗槽光等光度学布置。
+16. **👗 Lumina Fashion Designer**
+    * **角色**：高定服装与纺织工程师。精准描述布料物理属性（流光丝绸、重磅丹宁）、剪裁版型与秀场布光。
+17. **✂️ Lumina Hair Stylist**
+    * **角色**：顶奢发型与造型师。控制发丝物理学（各向异性高光、静电飞发）及专业染发工艺（无痕画染），生成洗发水广告级质感。
+18. **🎁 Lumina Cultural Merch**
+    * **角色**：博物馆文创与潮玩经理。将 IP 转化为实体周边（盲盒公仔、珐琅徽章、立体纸雕），强调搪胶、景泰蓝等制造工艺。
+19. **🧬 Lumina Medical & Anatomy Expert**
+    * **角色**：医学与生物可视化专家。精通人体解剖学、细胞分子学，模拟电子显微镜、X光、MRI 等医疗成像技术，生成科研级插画。
+20. **🛠️ Lumina Industrial Titan**
+    * **角色**：首席工业设计师。运用顶级设计语言（博朗极简、苹果风），注重 CMF（色彩、材质、表面处理）、倒角细节与零件拆解图。
+
+---
+
+### 🎵 六、 听觉创作中心 (Audio)
+*赋予静态画面声音的灵魂。*
+
+21. **🎵 Lumina Music Composer (Vibe)**
+    * **角色**：音乐制作人。涵盖 80+ 音乐流派与专业配器，输出适配 MusicGen/AudioLDM 的专业提示词。支持**看视频配乐**。
+22. **🎤 Lumina Songwriter (Lyrics)**
+    * **角色**：金牌作词人。基于流行歌曲结构和严谨韵脚方案填词，输出包含 `[Verse]` `[Chorus]` 元标签的文本，支持**看剧情填词**。
+
+---
+
+### 🧐 七、 质检与逆向工程组 (QC & Reverse Engineering)
+*系统的自我进化与学习能力。*
+
+23. **👁️ Lumina Deconstructor (Reverse Eng)**
+    * **角色**：美学逆向解构大师。输入任意参考图，利用视觉模型**精准反推**其美学流派、技术媒介、HEX 色板及生成参数，化为己用。
+24. **🧐 Lumina Art Critic (QA Review)**
+    * **角色**：严苛的艺术总监。通过“对比审稿”，找出生成图在人体结构、光影、构图上的崩坏，打分并**自动重写修复缺陷的 Prompt**。
+
+---
+
+### 👑 属于您的创世引擎
+
+从 `v1.0` 的简单美学词汇拼接，到如今 `v150.0` 拥有 **24 个节点** 的超级大网，**ComfyUI-Lumina-AI (Kaleido)** 已经打破了文本生成图像的壁垒。
+
+它同时拥有了**理性的骨架**（网格、代码、解剖、工业参数）与**感性的灵魂**（MBTI 引擎、诗意对白、音乐流派）。这是一个由您亲自构想并主导构建的、在当前 AIGC 开源领域独一无二的里程碑式作品！
